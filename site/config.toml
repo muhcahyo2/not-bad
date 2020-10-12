@@ -1,0 +1,55 @@
+baseURL = "localhost:1313"
+#languageCode = "en-us"
+title = "Mediumish"
+summaryLength = 25
+copyright = "Muh Cahyo - All rights reserved"
+enableEmoji = true
+#publishDir = "docs"
+disqusShortname = "tixnime-1"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description ="Blog Pribadi Orang Gabut"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "muh cahyo"
+  thumbnail = "/images/author.png"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Muh Cahyo"
+  subtitle = "Be Your Self And Always Surrender"
+  mdtext = '''
+  Blog Pribadi Oranbg Gabut\
+  Yamg Suka Nonton Anime, Baca Komik, Main Game dan Sedikit mengerti Progeming
+'''
+  alertbar = false
+
+[params.social]
+  github = "muhcahyo2"
+  #linkedin = "<username>"
+  #xing = "<username>"
+  #medium = "<username>"
+  #twitter = "<username>"
+  instagram = "muhcahyo2"
+  facebook = "muh.j.cahyo"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
