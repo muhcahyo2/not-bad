@@ -4,6 +4,8 @@
 
 <!-- Twitter Card -->
 {{ template "_internal/twitter_cards.html" . }}
+<meta name="twitter:image" content="https:{{ .Site.BaseURL }}{{ .Params.image}}">
+<meta name="og:image" content="https:{{ .Site.BaseURL }}{{ .Params.image}}">
 <!-- Scheme template -->
 {{ template "_internal/schema.html" . }}
 <!-- OG data -->
