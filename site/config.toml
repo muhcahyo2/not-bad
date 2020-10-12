@@ -1,4 +1,4 @@
-baseURL = "blog.trucuk.com"
+baseURL = "https://blog.trucuk.com"
 languageCode = "id-ID"
 title = "Mediumish"
 summaryLength = 25
@@ -6,7 +6,7 @@ copyright = "Muh Cahyo - All rights reserved"
 enableEmoji = true
 #publishDir = "docs"
 disqusShortname = "tixnime-1"
-#googleAnalytics = "UA-174513993-1"
+googleAnalytics = "UA-174513993-1"
 enableRobotsTXT = true
 
 [imaging]
