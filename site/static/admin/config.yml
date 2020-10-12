@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: muhcahyo2/not-bad
   branch: main
 

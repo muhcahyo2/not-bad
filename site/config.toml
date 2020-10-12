@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "/"
 languageCode = "id-ID"
 title = "Mediumish"
 summaryLength = 25
@@ -7,8 +7,7 @@ enableEmoji = true
 #publishDir = "docs"
 disqusShortname = "tixnime-1"
 #googleAnalytics = "UA-1XXXXXXX1-1"
-
-enableRobotsTXT: true
+enableRobotsTXT = true
 
 [imaging]
   quality = 50
@@ -82,8 +81,3 @@ enableRobotsTXT: true
     identifier = "about"
     weight = 200
     url = "/"
-[[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 200
-    url = "/static/imprint"
