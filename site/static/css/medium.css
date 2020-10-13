@@ -45,7 +45,7 @@ pre {
 
 .main-content {
     min-height: 300px;
-    content-visibility: hidden;
+    content-visibility: auto;
 }
 
 .site-content {
@@ -53,7 +53,7 @@ pre {
     padding-top: 1.5rem;
     margin-top: 57px;
     transition: all 0.4s;
-    content-visibility: hidden;
+    content-visibility: auto;
 }
 
 section {
@@ -323,7 +323,7 @@ span.post-read-more a:hover {
     margin-bottom: 62px;
     position: relative;
     background: #fff;
-    content-visibility: hidden;
+    content-visibility: auto;
 }
 
 .link-dark {
@@ -411,7 +411,7 @@ blockquote {
 
     #comments {
         margin-right: 15px;
-        content-visibility: hidden;
+        content-visibility: auto;
     }
 
     .jumbotron.fortags {
@@ -675,7 +675,7 @@ ul.tags li a:hover {
 #comments {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-    content-visibility: hidden;
+    content-visibility: auto;
 }
 .h1,
 .h2,
