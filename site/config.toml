@@ -1,5 +1,5 @@
 baseURL = "https://blog.trucuk.com"
-languageCode = "id-ID"
+languageCode = "id"
 title = "Mediumish"
 summaryLength = 25
 copyright = "Muh Cahyo - All rights reserved"
@@ -8,9 +8,17 @@ enableEmoji = true
 disqusShortname = "tixnime-1"
 googleAnalytics = "UA-174513993-1"
 enableRobotsTXT = true
+paginate = 6
 
 [imaging]
   quality = 50
+
+[output]
+  home = ["HTML"]
+  page = ["HTML", "AMP", "RSS"]
+  taxonomy = ["HTML", "AMP", "RSS"]
+  term = ["HTML", "AMP", "RSS"]
+  section = ["HTML", "AMP", "RSS"]
 
 [minify]
   disableCSS = false
@@ -45,6 +53,7 @@ enableRobotsTXT = true
   logo = "/images/logo.png"
   description ="Blog Pribadi Orang Gabut"
   #mailchimp = "you can provide a mailchimp-link here"
+  ThemeColor = "#333"
 
 [params.author]
   name = "muh cahyo"

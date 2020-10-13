@@ -1,0 +1,16 @@
+{{- partial "seo/language-metas.html" . -}}
+
+{{- partial "seo/pagination-metas.html" . -}}
+
+<meta name="description" content="{{if .IsHome}}{{ .Site.Params.Description }}{{else}}{{.Description}}{{end}}" />
+<link rel="canonical" href="{{ .Permalink }}" >
+<link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
+
+{{- partial "seo/pwa-metas.html" . -}}
+
+<!-- Sosial meta -->
+
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/{{ .Params.image}}">
+<meta name="og:image" content="{{ .Site.BaseURL }}/{{ .Params.image}}">
